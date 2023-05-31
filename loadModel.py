@@ -5,7 +5,8 @@ from tensorflow import keras
 
 answer=input("Type the name of the model to load: ")
 
-df = pd.read_csv('data2.csv')
+
+df = pd.read_csv('data.csv')
 df.head()
 X=df['X']
 Y=df['Y']
